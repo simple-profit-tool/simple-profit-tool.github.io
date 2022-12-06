@@ -1,0 +1,36 @@
+button, input[type=button] {
+    border: 2px solid rgb(68, 146, 175);
+    background-color: #ccffff;
+    margin: 5px;
+    padding: 5px 10px;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+
+.custom-file-upload {
+    border-radius: 15px;
+    /* display: inline-block; */
+    padding: 5px 10px;
+    cursor: pointer;
+    border: 2px solid #ccc;
+    background-color: #ccffff;
+    margin: 5px;
+    padding: 5px 10px;
+    border-radius: 10px;
+    font-size: 20px;
+}
+
+#file-chosen {
+    margin: 5px;
+    padding: 5px 10px;
+    font-size: 20px;
+}
+
+input[type=text], input[type=number] {
+    border: none;
+    border-bottom: 2px solid black;
+    margin: 1px;
+    font-size: 20px;
+}

@@ -1,0 +1,18 @@
+Add User (Name, Capital, Inception Date, BANKDETAILS) Capital / NAV
+Add Capital (Name, Amount, Time, BANKDETAILS) Capital / NAV
+Withdraw Capital (Name, UNIT, BANKDETAILS) ROUND(NAV * UNIT, 2)
+Withdraw User (Name, BANKDETAILS) ROUND(NAV * USER_UNIT, 2)
+Set Unit Scale (Value) NAV = 100, TOTAL_UNIT = Starting Portfolio / NAV
+Insert Present Portfolio Value (Value)
+Get Starting Porfolio Value ()
+Get Present Portfolio Value ()
+Get NAV () Present Portfolio Value / TOTAL_UNIT
+User Present Portfolio Value (Name) NAV * USER_UNIT
+Get User Unit (Name)
+Monthly Report () excel.xlsx
+Historical Report (LIMIT) excel.xlsx
+Get Recipt (ID)
+Get Total Units ()
+Get Log(LIMIT)
+
+

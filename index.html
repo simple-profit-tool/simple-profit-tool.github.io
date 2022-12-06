@@ -1,0 +1,37 @@
+<html>
+
+<head>
+    <title>Profit Tool</title>
+    <link rel="icon" href="assets/images/toolbox.png">
+    <link rel="stylesheet" href="assets/css/rtable.css">
+    <link rel="stylesheet" href="assets/css/dropdownbtn.css">
+    <link rel="stylesheet" href="assets/css/loader.css">
+</head>
+
+<body>
+
+    <div class="dropdown">
+        <button class="dropbtn" onclick="displayShowHide()">Select Options</button>
+        <div class="dropdown-content" id="NAVOptions">
+
+            <p onclick="updateAddUserContent()">Add User</p>
+            <p onclick="updateAddFundContent()">Add Fund</p>
+            <p onclick="updateWithdrawFundContent()">Withdraw</p>
+            <p onclick="updateWithdrawUserAllContent()">Withdraw User All</p>
+            <p onclick="updatePNLContent()">Update PNL</p>
+            <p onclick="updateTotalFundContent()">Update Total Fund</p>
+            <p onclick="taxAllUtil()">Tax All Users</p>
+            <p onclick="updateUploadDownload()">Download / Upload</p>
+        </div>
+        <!-- <div id="actionButton"></div> -->
+    </div>
+    <div id="processBar"></div>
+    <hr />
+    <div id="dvCSV">
+    </div>
+    <script src="assets/js/computation.js"></script>
+    <script src="assets/js/loader.js"></script>
+
+</body>
+
+</html>
